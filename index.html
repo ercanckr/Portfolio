@@ -1,50 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
     <header class="header">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">
-                        Works
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Blog
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"> Works </a>
+          </li>
+          <li>
+            <a href="#"> Blog </a>
+          </li>
+          <li>
+            <a href="#"> Contact </a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-  <!--Hero-->
-            <section class="hero">
-                <div class="container">
-                    <div class="left">
-                        <h1>Hi, I am John,<br>
-                            Creative Technologist</h1>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <button class="btn ">Download Resume</button>
-                    </div>
-                    <div class="right">
-                        <img src="assets/images/zoro.jpg" width="800"  alt="">
-                    </div>
+      <!--Hero-->
+      <section class="hero">
+        <div class="container">
+          <div class="left">
+            <h1>
+              Hi, I am John,<br />
+              Creative Technologist
+            </h1>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button class="btn">Download Resume</button>
+          </div>
+          <div class="right">
+            <img src="assets/images/zoro.jpg" width="800" alt="" />
+          </div>
+        </div>
+      </section>
+      <!--Recent posts-->
+
+      <section class="content-section recent-posts">
+        <div class="container">
+          <header>
+            <h4>Recent posts</h4>
+            <a href="">View all</a>
+          </header>
+          <div class="posts">
+            <article>
+              <h3>Making a design system from scratch</h3>
+              <div class="meta">
+                <span class="date">12 Feb 2020</span>
+                <span class="tags">Design, Pattern</span>
+              </div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </article>
+            <article>
+              <h3>Creating pixel perfect icons in Figma</h3>
+              <div class="meta">
+                <span class="date">12 Feb 2020</span>
+                <span class="tags">Figma, Icon Design</span>
+              </div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="content-section">
+        <div class="container">
+          <header>
+            <h3>Featured works</h3>
+          </header>
+          <div class="works">
+            <article>
+              <img src="assets/images/design.jpg" alt="work" />
+              <div class="content">
+                <h3>Designing Dashboards</h3>
+                <div class="meta">
+                  <span class="date">2020</span>
+                  <span class="category">Dashboard</span>
                 </div>
-            </section>
-       
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/images/work.png" alt="work" />
+              <div class="content">
+                <h3>Vibrant Portraits of 2020</h3>
+                <div class="meta">
+                  <span class="date">2018</span>
+                  <span class="category">Illustration</span>
+                </div>
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/images/36day.jpg" alt="work" />
+              <div class="content">
+                <h3>36 Days of Malayalam type</h3>
+                <div class="meta">
+                  <span class="date">2018</span>
+                  <span class="category">Typography</span>
+                </div>
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+    <footer class="footer">
+      <ul class="social-icons">
+        <li>
+          <a href="https://facebook.com" target="_blank"
+            ><img src="assets/images/facebook.svg" alt="facebook"
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img src="assets/images/instagram.svg" alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href=""><img src="assets/images/twitter.svg" alt="twitter" /></a>
+        </li>
+        <li>
+          <a href=""><img src="assets/images/Linkedin.svg" alt="Linkedin" /></a>
+        </li>
+      </ul>
+      <p class="copyright">
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        All rights reserved
+      </p>
+    </footer>
+  </body>
 </html>
