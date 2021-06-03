@@ -264,7 +264,8 @@ display: flex;
 .iletisimsol h1{
   width: 557px;
   height: 39px;
-  margin: 114px 130px 26px 150px;
+  margin-bottom: 26px;
+  margin-right: 130px;
   font-size: 32px;
   font-weight: bold;
   font-stretch: normal;
@@ -277,7 +278,8 @@ display: flex;
 .iletisimsol p.pbir{
   width: 557px;
   height: 87px;
-  margin: 26px 130px 24px 150px;
+  margin-bottom: 24px;
+  margin-right: 130px;
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
@@ -290,7 +292,8 @@ display: flex;
 .iletisimsol p.piki{
   width: 557px;
   height: 57px;
-  margin: 16px 130px 77px 150px;
+  margin-bottom: 77px;
+  margin-right: 130px;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -356,4 +359,71 @@ display: flex;
   letter-spacing: -0.09px;
   text-align: left;
   color: #ffffff;
+}
+.footernav{
+  margin-top: 100px;
+  border-top: solid 1px #b3bbc8;
+}
+
+
+.footernav nav {
+  list-style: none;
+  display: flex;
+}
+.footernav nav ul {
+  list-style: none;
+  display: flex;
+}
+.footernav nav ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 56px;
+  padding-top: 40px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.45px;
+  text-align: left;
+  color: #667180;
+  text-decoration: none;
+}
+
+.footer{
+  display: flex;
+  margin-top: 51px;
+}
+.footersol .p1{
+  width: 317px;
+  height: 19px;
+  margin-bottom: 36px;
+  margin-right: 150px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.45px;
+  text-align: left;
+  color: #b3bbc8;
+}
+.footersol .p2{
+  width: 557px;
+  height: 19px;
+  margin-right: 151px;
+  margin-bottom: 48px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.45px;
+  text-align: left;
+  color: #b3bbc8;
+}
+
+.footersag .footerimg1{
+  margin-right: 29px;
 }
